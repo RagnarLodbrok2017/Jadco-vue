@@ -436,8 +436,191 @@
    ========================================== */
 
 @media (max-width: 992px) {
-  
-}   
+    .container {
+        max-width: 940px !important;
+    }
+    .scroll-indicator-container {
+        display: none;
+    }
+    
+    /* Header Elements */
+    .main-heading {
+        font-size: 1.8rem;
+    }
+    
+    /* Vue-specific styles at 992px */
+    body[data-vue-app] .header-image {
+        padding-bottom: 5px;
+    }
+    
+    /* Fix column ordering at 992px */
+    .heading .left-col {
+        order: 1 !important;
+    }
+    
+    .header-main-carousel {
+        order: 2 !important;
+    }
+    
+    /* Service content */
+    .service-content .service-number {
+        font-size: 4.5rem;
+    }
+    
+    .section-title {
+        font-size: 2.2rem;
+    }
+    
+    .service-title {
+        font-size: 1.6rem;
+    }
+    
+    .service-description {
+        font-size: 0.9rem;
+    }
+    
+    .main-content .service-description {
+        font-size: 0.75rem;
+    }
+    
+    /* About Section */
+    .about-section .section-title {
+        font-size: 2.2rem;
+    }
+    
+    .about-section .section-title span {
+        font-size: 5rem;
+    }
+    
+    .about-text {
+        font-size: 1.5rem;
+    }
+    
+    .about-section .about-heading img {
+        left: 6rem;
+        width: 350px;
+    }
+    
+    .about-image-main {
+        width: 400px;
+        height: 220px;
+    }
+    
+    .about-image-secondary {
+        width: 200px;
+        height: 240px;
+        left: -20px;
+        top: 50px;
+    }
+    .about-image-wrapper {
+        height: 240px;
+    }
+    
+    
+    .about-description {
+        font-size: 0.9rem;
+    }
+
+    /* Educational Services */
+    .service-num {
+        font-size: 4rem;
+    }
+    
+    .service-name {
+        font-size: 1.4rem;
+    }
+    
+    .service-desc {
+        font-size: 0.9rem;
+    }
+    
+    .service-item.active .service-desc {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    
+    .service-toggle {
+        font-size: 1.8rem;
+    }
+    
+    .service-content-wrapper .learn-more {
+        font-size: 0.9rem;
+    }
+    
+    .about-main-description {
+        padding-top: 0;
+        font-size: 1rem;
+    }
+
+    /* Carousel Navigation */
+    .nav-number {
+        font-size: 1.7rem;
+    }
+
+    .about-image-wrapper {
+        height: 240px;
+    }
+    
+    /* Fix about section column ordering at 992px */
+    .about-section .col-lg-6.order-lg-1 {
+        order: 1 !important;
+    }
+    
+    .about-section .col-lg-6.order-lg-2 {
+        order: 2 !important;
+    }
+    
+    .about-main-description {
+        padding-top: 0;
+        font-size: 1rem;
+    }
+
+    /* Contact Section */
+    .contact-tagline {
+        font-size: 1.5rem;
+    }
+    
+    .let-talk {
+        font-size: 2.2rem;
+    }
+    
+    .location-title {
+        font-size: 1.4rem;
+    }
+    
+    .location-address {
+        font-size: 0.9rem;
+    }
+    
+    .contact-label {
+        font-size: 0.9rem;
+    }
+    
+    .contact-value {
+        font-size: 0.9rem;
+    }
+    
+    .form-control {
+        font-size: 0.9rem;
+    }
+    
+    .form-label {
+        font-size: 0.9rem;
+    }
+    
+    .btn-send {
+        font-size: 0.9rem;
+        padding: 8px 20px;
+    }
+    
+    .social-link {
+        font-size: 0.9rem;
+    }
+    
+    .copyright {
+        font-size: 0.9rem;
+    }
+}
 
 /* ==========================================
    SMALL DEVICES COMMON (max-width: 768px)

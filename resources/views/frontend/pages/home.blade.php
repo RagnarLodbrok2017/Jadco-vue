@@ -18,7 +18,7 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-6 order-lg-1 order-2 about-main-description">
+                <div class="col-lg-6 col-sm-6 order-lg-1 order-2 about-main-description">
                     <p class="about-description">
                         JADCO and its highly ranked international partners of Companies,
                         Universities and SMEs are forming together an exclusive and
@@ -33,7 +33,7 @@
                         objectives of our clients.
                     </p>
                 </div>
-                <div class="col-lg-6 order-lg-2 order-1 about-image-wrapper">
+                <div class="col-lg-6 col-sm-6 order-lg-2 order-1 about-image-wrapper">
                     <div class="about-image-container">
                         <div class="about-image-main">
                             <img src="{{ asset('images/About_01.jpg') }}" alt="Graduate student" class="img-fluid">
