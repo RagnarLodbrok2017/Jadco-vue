@@ -28,5 +28,6 @@
     <body>
         <!-- Vue app will mount here -->
         <div id="app"></div>
+        <link rel="stylesheet" href="{{ asset('css/optimized/main.css') }}">
     </body>
 </html>

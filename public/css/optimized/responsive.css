@@ -634,11 +634,17 @@
         min-height: 100vh;
         min-height: -webkit-fill-available;
     }
+    section {
+        margin-top: 5rem;
+    }
     
     /* 
      * Header Elements - Mobile Specific Adjustments
      * Applied to both Blade templates and Vue components
      */
+     .heading .left-col {
+        position: unset;
+     }
     .main-heading,
     .heading .main-heading {
         font-size: 1.2rem;
@@ -646,23 +652,18 @@
         height: 11%;
         position: absolute;
         z-index: 10;
-        /* background-color: rgba(255, 255, 255, 0.4); */
-        /* backdrop-filter: blur(2px); */
         width: 80%;
         left: 7%;
-        top: -69vh;
-        /* border-radius: 15px; */
-        /* box-shadow: 0 2px 10px rgb(0 0 0); */
-        /* text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5); */
+        top: 27vh; /* Default value for Blade templates */
         color: #ffffff;
         overflow: visible;
     }
     
-    /* Adjust main heading position for Vue subpages */
-    body[data-vue-app]:not([data-route="/"]) .main-heading,
-    body[data-vue-app]:not([data-route="/"]) .heading .main-heading {
-        top: 25%;
-        font-size: 1.6rem;
+    /* Vue-specific main heading position */
+    body[data-vue-app] .main-heading,
+    body[data-vue-app] .heading .main-heading {
+        top: 27vh;
+        font-size: 1.3rem;
     }
     
     .heading .heading-text {
@@ -688,7 +689,7 @@
     }
     
     .contact-section .let-talk {
-        font-weight: 400;
+        font-weight: 800;
     }
     
     /* Hide the educational services section on mobile - but ONLY in Blade templates, not Vue */
@@ -704,7 +705,7 @@
     .heading .services-menu,
     .services-menu {
         margin-top: 0;
-        top: -46vh;
+        bottom: -20px;
     }
     
     /* Vue-specific services menu adjustment */
@@ -780,6 +781,11 @@
     .header-image {
         height: 47%;
         margin-bottom: 0;
+    }
+    
+    /* Vue-specific header image height */
+    body[data-vue-app] .header-image {
+        height: 40%;
     }
     
     /* Header carousel size */
@@ -1026,6 +1032,10 @@
     section {
         padding-top: 0;
         padding-bottom: 0;
+    }
+
+    .ai-pages .service-description, .service-description {
+        font-size: 1.2rem;
     }
 
     /* Service Section Layout - Mobile-specific styles */
