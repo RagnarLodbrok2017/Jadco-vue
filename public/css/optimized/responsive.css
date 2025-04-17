@@ -173,6 +173,10 @@
         padding: 0;
     }
 
+    .nav-number {
+        font-size: 1.8rem;
+    }
+
     /* Vue-specific styles at 1366px */
     body[data-vue-app] .header-image {
         padding-bottom: 0;
