@@ -7,13 +7,13 @@ $(document).ready(function () {
         const transform = headerImage ? window.getComputedStyle(headerImage).transform : 'null';
         const animation = headerImage ? window.getComputedStyle(headerImage).animation : 'null';
         
-        console.log(
-            `[${timestamp}] [HEADER-IMAGE-DEBUG] ${message}\n` +
-            `  Classes: ${classes}\n` +
-            `  Opacity: ${opacity}\n` +
-            `  Transform: ${transform}\n` +
-            `  Animation: ${animation}`
-        );
+        // console.log(
+        //     `[${timestamp}] [HEADER-IMAGE-DEBUG] ${message}\n` +
+        //     `  Classes: ${classes}\n` +
+        //     `  Opacity: ${opacity}\n` +
+        //     `  Transform: ${transform}\n` +
+        //     `  Animation: ${animation}`
+        // );
     }
     
     // Set up mutation observer to monitor header image changes
@@ -43,7 +43,7 @@ $(document).ready(function () {
             attributeFilter: ['class', 'style']
         });
         
-        console.log('[HEADER] Started header image mutation observer');
+        // console.log('[HEADER] Started header image mutation observer');
         
         // Additional monitoring for the window load event
         window.addEventListener('load', () => {
@@ -270,7 +270,7 @@ $(document).ready(function () {
                 // First, remove the animate class if it exists
                 if (headerImage.classList.contains('animate')) {
                     headerImage.classList.remove('animate');
-                    console.log('[HEADER] Removed existing animate class from header image');
+                    // console.log('[HEADER] Removed existing animate class from header image');
                     debugHeaderImage('After removing animate class', headerImage);
                 }
                 
@@ -285,7 +285,7 @@ $(document).ready(function () {
                 // Add the animate class after a brief delay to ensure clean animation
                 setTimeout(() => {
                     headerImage.classList.add('animate');
-                    console.log('[HEADER] Added animate class to header image');
+                    // console.log('[HEADER] Added animate class to header image');
                     debugHeaderImage('After adding animate class', headerImage);
                     
                     // Monitor animation completion
