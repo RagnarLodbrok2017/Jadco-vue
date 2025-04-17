@@ -137,7 +137,7 @@ $(document).ready(function () {
                     preloader.remove();
                 }, 50); // Reduced from 100ms
             }, 200); // Reduced from 300ms
-        }, 400); // Reduced from 600ms
+        }, 1500); // Reduced from 600ms
     } else {
         // If no preloader, initialize header animations immediately
         initializeHeaderAnimations();
@@ -151,7 +151,7 @@ $(document).ready(function () {
         if (isHomePage) {
             setTimeout(() => {
                 window.debugHeadingTextIssue();
-            }, 500); // Reduced from 1000ms
+            }, 1500); // Reduced from 1000ms
         }
     }
 

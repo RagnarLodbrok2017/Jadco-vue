@@ -885,7 +885,7 @@
     /* Vue-specific main heading position */
     body[data-vue-app] .main-heading,
     body[data-vue-app] .heading .main-heading {
-        top: 27vh;
+        top: 22vh;
         font-size: 1.3rem;
     }
     
