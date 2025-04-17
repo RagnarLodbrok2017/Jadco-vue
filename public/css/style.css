@@ -228,7 +228,7 @@ a:hover {
     flex: 1;
     height: 87vh;
     overflow: hidden;
-    border-bottom: 5px solid var(--gray-color);
+    /* border-bottom: 5px solid var(--gray-color); */
 }
 .heading .left-col {
     position: relative;
@@ -323,7 +323,7 @@ a:hover {
     float: right;
     position: relative;
     /* height: auto; */
-    min-height: 50vh;
+    /* min-height: 50vh; */
     opacity: 0;
     transform: translateX(80px);
     height: 100%;
@@ -1723,8 +1723,8 @@ textarea.form-control:focus {
     list-style: none;
     padding: 0;
     margin: 0;
-    max-height: 50vh;
-    overflow-y: auto;
+    /* max-height: 50vh; */
+    /* overflow-y: auto; */
 }
 
 .service-list li {
@@ -1877,5 +1877,5 @@ textarea.form-control:focus {
 /* Override any JavaScript added inline styles for first service buttons */
 .first-service .service-buttons,
 .service-stack-item[data-service="1"] .service-buttons {
-    margin-top: 2rem !important;
+    margin-top: 2rem;
 }
