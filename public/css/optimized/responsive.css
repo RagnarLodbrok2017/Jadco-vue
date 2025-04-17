@@ -204,6 +204,11 @@
         padding-bottom: 0;
     }
 
+    /* Vue-specific main heading style */
+    body[data-vue-app] .main-heading {
+        font-size: 3rem;
+    }
+
     /* Header Elements */
     .main-heading {
         font-size: 2.7rem;
@@ -360,6 +365,9 @@
         margin-bottom: 0;
         padding-bottom: 0;
         margin-top: 0.5;
+    }
+    .service-text-content p {
+        font-size: 1rem;
     }
 }
 
