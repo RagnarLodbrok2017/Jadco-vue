@@ -54,14 +54,14 @@ export default {
         window.addEventListener('load', () => {
             setTimeout(() => {
                 this.isLoading = false;
-            }, 500);
+            }, 1500);
         });
 
         // If page already loaded, hide preloader
         if (document.readyState === 'complete') {
             setTimeout(() => {
                 this.isLoading = false;
-            }, 500);
+            }, 1500);
         }
 
         // Scroll indicator
