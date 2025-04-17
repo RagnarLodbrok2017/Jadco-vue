@@ -11,7 +11,7 @@
 
 .heading .left-col {
     height: 550px;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
 }

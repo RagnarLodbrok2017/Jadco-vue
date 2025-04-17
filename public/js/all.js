@@ -204,7 +204,7 @@ $(document).ready(function() {
         let lastScrollY = window.scrollY;
         let secondaryImageY = 0;
         let mainImageY = 0;
-        const MAX_MOVE = 60; // Maximum pixel movement in either direction - reduced from 80px to 60px
+        const MAX_MOVE = 45; // Maximum pixel movement in either direction - reduced from 80px to 60px
         
         // Get image elements
         const secondaryImage = document.querySelector('.about-image-secondary');

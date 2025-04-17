@@ -172,8 +172,10 @@
     .carousel-nav-numbers {
         padding: 0;
     }
-    .header-image {
-        padding-bottom: 17px;
+
+    /* Vue-specific styles at 1366px */
+    body[data-vue-app] .header-image {
+        padding-bottom: 15px;
     }
 
     /* Header Elements */
@@ -181,7 +183,6 @@
         font-size: 2.8rem;
         /* height: 34%; */
     }
-    
     .heading .services-menu h3 {
         font-size: 2rem;
         margin-bottom: 0;
@@ -211,7 +212,7 @@
         height: 320px;
     }
     .about-section .about-heading img {
-        left: 14rem;
+        left: 15rem;
         width: 450px;
         height: auto;
     }
