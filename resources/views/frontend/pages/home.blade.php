@@ -64,13 +64,13 @@
                 <div class="service-item-wrapper">
                     <div class="container">
                         <div class="row align-items-center full-screen md-h-auto">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="service-image">
                                     <img src="{{ asset('images/Home_Serv_01.jpg') }}" alt="Classroom setting"
                                         class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="service-content">
                                     <div class="title">
                                         <h2 class="section-title">SERVICES</h2>
@@ -106,13 +106,13 @@
                 <div class="service-item-wrapper">
                     <div class="container">
                         <div class="row align-items-center full-screen md-h-auto">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="service-image">
                                     <img src="{{ asset('images/Home_Serv_02.jpg') }}" alt="AI Technology"
                                         class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="service-content">
                                     <div class="title">
                                         <h2 class="section-title">SERVICES</h2>
@@ -147,13 +147,13 @@
                 <div class="service-item-wrapper">
                     <div class="container">
                         <div class="row align-items-center full-screen md-h-auto">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="service-image">
                                     <img src="{{ asset('images/Home_Serv_03.jpg') }}" alt="Gaming and Esports"
                                         class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="service-content">
                                     <div class="title">
                                         <h2 class="section-title">SERVICES</h2>
@@ -186,13 +186,13 @@
                 <div class="service-item-wrapper">
                     <div class="container">
                         <div class="row align-items-center full-screen md-h-auto">
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="service-image">
                                     <img src="{{ asset('images/Home_Serv_04.jpg') }}" alt="Arts and Entertainment"
                                         class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-lg-6">
+                            <div class="col-lg-6 col-sm-6">
                                 <div class="service-content">
                                     <div class="title">
                                         <h2 class="section-title">SERVICES</h2>
