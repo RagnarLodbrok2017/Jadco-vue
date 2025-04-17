@@ -861,6 +861,13 @@
         order: 1 !important;
     }
     
+    /* Hide the navbar Let's Talk button */
+    .navbar .btn-talk,
+    .navbar-nav .btn-talk,
+    .navbar-collapse .btn-talk {
+        display: none !important;
+    }
+    
     /* 
      * Header Elements - Mobile Specific Adjustments
      * Applied to both Blade templates and Vue components
@@ -956,6 +963,17 @@
     .heading .services-menu .btn-talk,
     .services-menu .btn-talk {
         margin-top: 1rem;
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* Let's Talk button styling */
+    .btn-talk {
+        display: block !important;
+        width: 100% !important;
+        margin: 20px auto 20px auto !important;
+        text-align: center !important;
     }
     
     /* Carousel Navigation */
