@@ -868,6 +868,34 @@
         display: none !important;
     }
     
+    /* Centralize navbar items */
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+        padding: 1rem 0;
+    }
+    
+    .navbar-nav .nav-item {
+        padding-right: 0;
+        /* margin: 0.75rem 0 !important; */
+        display: block;
+        width: 100%;
+    }
+    
+    .navbar-nav .nav-link {
+        display: inline-block;
+        text-align: center;
+        padding: 0.5rem 1rem;
+        margin: 0 auto;
+        font-size: 1.4rem;
+    }
+    
+    /* Add margin equivalent to me-3 class */
+    .navbar-nav .me-3 {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
     /* 
      * Header Elements - Mobile Specific Adjustments
      * Applied to both Blade templates and Vue components
@@ -877,14 +905,14 @@
      }
     .main-heading,
     .heading .main-heading {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         padding: 0;
         height: 11%;
         position: absolute;
         z-index: 10;
         width: 80%;
         left: 7%;
-        top: 27vh; /* Default value for Blade templates */
+        top: 26vh; /* Default value for Blade templates */
         color: #ffffff;
         overflow: visible;
     }
@@ -892,8 +920,10 @@
     /* Vue-specific main heading position */
     body[data-vue-app] .main-heading,
     body[data-vue-app] .heading .main-heading {
-        top: 22vh;
-        font-size: 1.3rem;
+        top: 19vh;
+        font-size: 1.2rem;
+        height: 15%;
+
     }
     
     .heading .heading-text {
@@ -959,6 +989,13 @@
         margin: 2vh 0;
     }
     
+    /* Make Vue app service list items match the same style */
+    body[data-vue-app] .service-list li a {
+        font-size: 1rem;
+        font-weight: 400;
+        /* padding-bottom: 0.5vh; */
+    }
+    
     /* Button Optimization for Mobile */
     .heading .services-menu .btn-talk,
     .services-menu .btn-talk {
@@ -972,7 +1009,7 @@
     .btn-talk {
         display: block !important;
         width: 100% !important;
-        margin: 20px auto 20px auto !important;
+        margin: 5px auto 22px auto !important;
         text-align: center !important;
     }
     
