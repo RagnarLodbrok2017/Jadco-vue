@@ -602,6 +602,9 @@
     .heading .services-menu {
         bottom: 0;
     }
+    .services-section .main-content {
+        padding-left: 50px;
+    }
     /* Vue-specific services menu styles */
     body[data-vue-app] .services-menu h3 {
         font-size: 1.8rem;
@@ -714,6 +717,14 @@
     .service-desc, .ai-pages .service-description, .service-description {
         font-size: 1.2rem;
     }
+
+    .navbar-collapse.show, 
+    .navbar-collapse.collapsing {
+        top: 65px;
+        position: absolute;
+        left: 0;
+        width: 101%;
+    }
 }
 
 /* ==========================================
@@ -812,6 +823,14 @@
 
     .about-image-wrapper {
         height: 315px;
+    }
+
+    .navbar-collapse.show, 
+    .navbar-collapse.collapsing {
+        top: 65px;
+        position: absolute;
+        left: 0;
+        width: 101%;
     }
 }
 
@@ -973,8 +992,10 @@
     
     .navbar-collapse.show, 
     .navbar-collapse.collapsing {
-        top: 80px;
-        max-height: 80vh;
+        top: 65px;
+        position: absolute;
+        left: 0;
+        width: 101%;
     }
     
     .navbar-nav .nav-link {
