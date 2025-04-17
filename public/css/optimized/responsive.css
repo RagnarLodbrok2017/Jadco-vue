@@ -726,6 +726,15 @@
         display: none;
     }
 
+    /* Column ordering for mobile */
+    .heading .left-col {
+        order: 2 !important;
+    }
+    
+    .header-main-carousel {
+        order: 1 !important;
+    }
+
     /* Navigation */
     .navbar-collapse.show, 
     .navbar-collapse.collapsing {
@@ -822,6 +831,15 @@
     }
     section {
         margin-top: 5rem;
+    }
+    
+    /* Column ordering for mobile */
+    .heading .left-col {
+        order: 2 !important;
+    }
+    
+    .header-main-carousel {
+        order: 1 !important;
     }
     
     /* 
