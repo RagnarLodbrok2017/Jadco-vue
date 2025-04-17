@@ -8,7 +8,7 @@
                         <img src="/images/logo.png" alt="JADCO Logo" class="logo">
                     </router-link>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-3">
                     <div class="contact-info">
                         <div class="locations">
                             <div class="location-item">
@@ -50,7 +50,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-9">
+                <div class="col-lg-9 col-sm-9">
                     <h3 class="contact-tagline">We Listen, design your vision and bring it to life...</h3>
                     <h2 class="let-talk">LET'S TALK.</h2>
 
@@ -103,8 +103,8 @@
             
             <!-- Footer -->
             <div class="row mt-3 end-footer">
-                <div class="col-lg-3"></div>
-                <div class="col-lg-9">
+                <div class="col-lg-3 col-sm-3"></div>
+                <div class="col-lg-9 col-sm-9">
                     <div class="d-flex justify-content-between align-items-center">
                         <div class="social-links">
                             <a href="#" class="social-link"><i class="fab fa-youtube"></i> YouTube</a>

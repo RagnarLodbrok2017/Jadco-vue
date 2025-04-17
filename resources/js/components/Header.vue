@@ -3,7 +3,7 @@
     <div class="heading">
         <div class="row">
             <!-- Left Column: Headings and Services -->
-            <div class="left-col col-lg-6 order-lg-1 order-2">
+            <div class="left-col col-sm-6 col-lg-6 order-lg-1 order-2">
                 <!-- Dynamic Heading Text -->
                 <h1 class="main-heading">
                     <span v-if="isHomePage" class="heading-text" :class="{ 'active': currentSlide === 0 }" data-slide="0">From Education and Training to Innovation</span>
@@ -71,7 +71,7 @@
             </div>
             
             <!-- Right Column: Image Carousel or Static Image -->
-            <div class="col-lg-6 order-lg-2 order-1 mb-4 mb-lg-0 header-main-carousel">
+            <div class="col-lg-6 col-sm-6 order-lg-2 order-1 mb-4 mb-lg-0 header-main-carousel">
                 <div class="header-image">
                     <div v-if="isHomePage">
                         <!-- Bootstrap Carousel for Home Page -->

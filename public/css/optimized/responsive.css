@@ -472,7 +472,7 @@
     }
     
     .service-title {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
     
     .service-description {
@@ -556,7 +556,45 @@
     .nav-number {
         font-size: 1.7rem;
     }
-
+    .heading .services-menu {
+        bottom: 0;
+    }
+    /* Vue-specific services menu styles */
+    body[data-vue-app] .services-menu h3 {
+        font-size: 1.8rem;
+    }
+    
+    body[data-vue-app] .service-list {
+        margin-top: 1rem;
+    }
+    
+    body[data-vue-app] .service-list li {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    body[data-vue-app] .service-text-content h2 {
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+    body[data-vue-app] .service-text-content  .service-list {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    body[data-vue-app] .service-text-content  .service-list li {
+        font-size: 1rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-top: 0;
+    }
+    
+    body[data-vue-app] .service-list li a {
+        font-size: 1.2rem;
+    }
+    
+    body[data-vue-app] .services-menu .btn-talk {
+        font-size: 1.4rem;
+    }
+    
     .about-image-wrapper {
         height: 240px;
     }
@@ -619,6 +657,19 @@
     
     .copyright {
         font-size: 0.9rem;
+    }
+
+    /* Vue-specific main heading */
+    body[data-vue-app] .main-heading {
+        font-size: 1.8rem;
+        line-height: 1.2;
+        margin-bottom: 0.5rem;
+        height: 30%;
+        margin-top: 3rem;
+    }
+
+    .service-desc, .ai-pages .service-description, .service-description {
+        font-size: 1.2rem;
     }
 }
 

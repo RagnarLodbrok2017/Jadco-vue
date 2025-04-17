@@ -166,6 +166,7 @@
     position: relative;
     padding-left: 15px;
     margin-bottom: 1px;
+    border: none;
 }
 
 .service-hero-section .service-list li:before {
