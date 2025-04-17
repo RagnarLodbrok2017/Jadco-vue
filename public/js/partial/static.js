@@ -265,7 +265,7 @@ $(document).ready(function () {
                         clearInterval(updateDots); // Stop the animation
                         $(this).remove(); // Remove overlay from DOM
                     });
-                }, 450); // Hold overlay visible for 450ms
+                }, 1000); // Hold overlay visible for 450ms
             });
         }
     };
