@@ -3,6 +3,13 @@
  * Formerly education-scholarship.css
  */
 
+/* Vue-specific heading - only applies at 1920px width and above */
+@media (min-width: 1920px) {
+    body[data-vue-app="true"] .heading {
+        height: 70vh;
+    }
+}
+
 .header-image {
     max-height: 550px;
     width: 100%;
