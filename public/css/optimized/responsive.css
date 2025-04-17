@@ -325,7 +325,110 @@
    ========================================== */
 
 @media (max-width: 1200px) {
-   
+    .container {
+        max-width: 1080px !important;
+    }
+    /* About Section - Small Desktop */
+    .about-section {
+        margin-top: 80px;
+        padding: 20px 0 60px;
+    }
+    
+    .about-section .section-title {
+        font-size: 2.6rem;
+    }
+    
+    .about-section .section-title span {
+        font-size: 7rem;
+        top: -0.4em;
+    }
+    
+    .about-text {
+        font-size: 1.75rem;
+        max-width: 992px;
+    }
+    
+    .about-text-container {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .about-image-wrapper {
+        height: 450px;
+    }
+    
+    .about-image-main {
+        width: 460px;
+        height: 280px;
+    }
+    
+    .about-section .about-heading img {
+        left: 11rem;
+        width: 400px;
+        height: auto;
+    }
+    
+    .about-image-secondary {
+        width: 260px;
+        height: 310px;
+        top: 30px;
+    }
+    
+    .about-description {
+        font-size: 1rem;
+    }
+    
+    .about-main-description {
+        padding-top: 1.5rem;
+        font-size: 1.1rem;
+    }
+    
+    /* Vue-specific styles at 1200px */
+    body[data-vue-app] .header-image {
+        padding-bottom: 10px;
+    }
+    
+    /* Service content */
+    .service-content {
+        padding: 1.5rem;
+    }
+    
+    .service-title {
+        font-size: 2rem;
+    }
+    
+    .service-description {
+        font-size: 1rem;
+    }
+    
+    .service-buttons {
+        margin-top: 0.5rem;
+    }
+    
+    .service-buttons .learn-more, .learn-more {
+        max-width: 170px;
+        font-size: 1.1rem;
+    }
+    
+    .service-content .service-number {
+        font-size: 5rem;
+    }
+    
+    .section-title {
+        font-size: 2.4rem;
+    }
+    
+    .service-title {
+        font-size: 1.8rem;
+        margin-bottom: 0;
+    }
+    
+    .main-content .service-description {
+        font-size: 0.8rem;
+        height: auto;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
 }
 
 /* ==========================================
