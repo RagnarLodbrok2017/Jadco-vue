@@ -15,6 +15,14 @@
     display: none;
 }
 
+
+/* Vue-specific heading - only applies at 1920px width and above */
+@media (max-width: 1920px) {
+    body[data-vue-app="true"] .heading {
+        height: 60vh;
+    }
+}
+
 /* ==========================================
    EXTRA LARGE SCREENS (max-width: 1600px)
    ========================================== */
@@ -150,6 +158,10 @@
         font-size: 1.3rem;
     }
 
+    body[data-vue-app="true"] .heading {
+        height: 80vh;
+    }
+
     /* Vue-specific service text content styles */
     body[data-vue-app] .service-text-content h2 {
         font-size: 2.2rem;
@@ -162,10 +174,10 @@
     }
     
     body[data-vue-app] .service-text-content .service-list li {
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin-bottom: 0;
         padding-bottom: 0;
-        margin-top: 0.5;
+        margin-top: 0.4rem;
     }
     
     .service-desc, .ai-pages .service-description, .service-description {
@@ -180,6 +192,9 @@
 @media (max-width: 1366px) {
     .container {
         max-width: 1200px !important;
+    }
+    body[data-vue-app="true"] .heading {
+        height: 80vh;
     }
 
     .navbar-nav .nav-item {
@@ -213,6 +228,12 @@
     /* Vue-specific main heading style */
     body[data-vue-app] .main-heading {
         font-size: 2.8rem;
+    }
+    
+    /* Vue-specific service text content styles */
+    body[data-vue-app] .service-text-content {
+        padding: 0px 10px;
+        width: 100%;
     }
 
     /* Header Elements */
@@ -385,6 +406,9 @@
     .container {
         max-width: 1080px !important;
     }
+    body[data-vue-app="true"] .heading {
+        height: 87vh;
+    }
     /* About Section - Small Desktop */
     .about-section {
         margin-top: 80px;
@@ -438,6 +462,9 @@
     .about-main-description {
         padding-top: 1.5rem;
         font-size: 1.1rem;
+    }
+    body[data-vue-app] .service-text-content .service-list li {
+        font-size: 0.9rem;
     }
     
     /* Vue-specific styles at 1200px */
@@ -1431,4 +1458,17 @@
         padding: 0;
         bottom: 2rem;
     }
+}
+
+/* Media queries for smaller desktop screens - 1366px */
+@media screen and (max-width: 1366px) {
+    .service-text-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Media queries for tablets */
+@media (max-width: 768px) {
+    /* Add tablet-specific styles here */
 }

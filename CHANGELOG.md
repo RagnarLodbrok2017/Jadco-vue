@@ -48,6 +48,7 @@
   - Added proper spacing between image and content columns
   - Optimized padding and margins for service content
   - Simplified content layout for better readability on small screens
+- Added responsive styling for `.service-text-content` at 1366px resolution with horizontal padding of 20px
 
 ## [July 2025]
 

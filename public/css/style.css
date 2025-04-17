@@ -118,7 +118,6 @@ a:hover {
     position: relative;
     background-color: var(--light-color);
     overflow: hidden;
-    height: 100vh;
 }
 
 /* Navbar animation - fade in from top */
