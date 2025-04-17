@@ -49,6 +49,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
     <script src="{{ asset('js/partial/static.js') }}"></script>
+    <script src="{{ asset('js/partial/fix-scroll.js') }}"></script>
     <script src="{{ asset('js/partial/services-menu-manager.js') }}"></script>
     <script src="{{ asset('js/partial/services-section.js') }}"></script>
     <script src="{{ asset('js/partial/header.js') }}"></script>
