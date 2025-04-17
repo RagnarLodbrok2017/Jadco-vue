@@ -33,6 +33,12 @@
         font-size: 2.6rem;
         font-weight: 600;
     }
+    
+    /* Vue-specific main heading style */
+    body[data-vue-app] .main-heading {
+        font-size: 3rem;
+    }
+    
     .header-image {
         padding-bottom: 17px;
     }
