@@ -21,6 +21,9 @@
     body[data-vue-app="true"] .heading {
         height: 60vh;
     }
+    .about-section {
+        margin-top: 8rem;
+    }
 }
 
 /* ==========================================
@@ -159,7 +162,7 @@
     }
 
     body[data-vue-app="true"] .heading {
-        height: 80vh;
+        height: 87vh;
     }
 
     /* Vue-specific service text content styles */
@@ -246,7 +249,8 @@
         margin-bottom: 0;
     }
     
-    .service-list li {
+    .service-list li,
+    .heading .service-list li {
         font-size: 1.25rem;
     }
     
@@ -1462,15 +1466,14 @@
     }
 }
 
-@media (max-height: 633px) {
-    /* Hide services word in the services-menu heading */
+/* @media (max-height: 633px) and (max-width: 576px) {
     .heading .services-menu,
     .services-menu{
         margin: 0;
         padding: 0;
         bottom: 2rem;
     }
-}
+} */
 
 /* Media queries for smaller desktop screens - 1366px */
 @media screen and (max-width: 1366px) {
