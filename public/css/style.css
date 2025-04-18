@@ -1339,7 +1339,7 @@ textarea.form-control:focus {
 .end-footer {
     margin-top: 20px;
     align-items: center;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 .social-links {

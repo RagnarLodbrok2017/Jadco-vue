@@ -277,3 +277,8 @@ section.service-hero-section:nth-of-type(3) .service-list {
         padding: 1rem 0;
     }
 }
+
+/* End footer adjustments for services pages */
+.end-footer {
+    margin-bottom: 2rem;
+}

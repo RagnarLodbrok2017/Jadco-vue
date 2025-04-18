@@ -525,25 +525,10 @@ $(document).ready(function () {
     });
      // Function to update the scroll indicator
      function updateScrollIndicator() {
-        const scrollIndicator = document.querySelector('.scroll-indicator');
-        if (!scrollIndicator) return;
+        // Don't implement scroll indicator logic here
+        // This is now handled by fix-scroll.js
         
-        const windowHeight = document.documentElement.scrollHeight - window.innerHeight;
-        const scrolled = (window.scrollY / windowHeight) * 100;
-        
-        // Limit the indicator height to 50px maximum
-        const MAX_HEIGHT_PX = 50;
-        const containerHeight = scrollIndicator.parentElement.offsetHeight;
-        
-        // Calculate percentage that equals 50px
-        const maxHeightPercent = (MAX_HEIGHT_PX / containerHeight) * 100;
-        
-        // Limit scrolled value to maxHeightPercent
-        const limitedScrolled = Math.min(scrolled, maxHeightPercent);
-        
-        scrollIndicator.style.height = `${limitedScrolled}%`;
-        
-        // Check if user is in header section - if yes, add at-top class to body
+        // Only handle the at-top class for navbar styling
         if (window.scrollY < 100) {
             document.body.classList.add('at-top');
         } else {
