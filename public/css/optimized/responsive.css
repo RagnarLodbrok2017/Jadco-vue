@@ -200,6 +200,12 @@
         height: 80vh;
     }
 
+    /* Fix for Vue app services-menu positioning */
+    body[data-vue-app] .heading .services-menu {
+        position: absolute;
+        bottom: 0;
+    }
+
     .navbar-nav .nav-item {
         padding-right: 5.5rem;
     }
