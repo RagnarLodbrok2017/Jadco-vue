@@ -880,7 +880,6 @@
    ========================================== */
 
 @media (max-width: 576px) {
-    /* Mobile viewport height fix */
     html {
         height: -webkit-fill-available;
     }
@@ -890,7 +889,10 @@
         min-height: -webkit-fill-available;
     }
     section {
-        margin-top: 5rem;
+        margin-top: 3rem;
+    }
+    body[data-vue-app="true"] .heading {
+        height: 90vh;
     }
     
     /* Column ordering for mobile */
@@ -1013,6 +1015,8 @@
     body[data-vue-app] .heading .services-menu,
     body[data-vue-app] .services-menu {
         margin-top: 2rem;
+        top: 37vh;
+        bottom: auto;
     }
     
     .heading .services-menu h3,
@@ -1420,6 +1424,14 @@
     
     section.service-hero-section .row {
         padding: 0 !important;
+    }
+}
+
+/* Height-specific adjustment for small screens (600px height or less) */
+@media (max-width: 576px) and (max-height: 600px) {
+    .heading .services-menu, 
+    .services-menu {
+        bottom: 5rem;
     }
 }
 
